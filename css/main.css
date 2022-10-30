@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap");
+.pricing-card, .best .best-card, .banner .banner-btn, .nav {
+  backdrop-filter: blur(9px) saturate(181%);
+  -webkit-backdrop-filter: blur(9px) saturate(181%);
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100");
+  background-position: center;
+  background-size: cover;
+  margin-top: 2px;
+  font-family: "League Spartan", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  padding: 14px 45px;
+  color: white;
+}
+.nav > i {
+  font-size: 40px;
+}
+.nav .nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.nav button {
+  padding: 6px;
+  border-radius: 15px;
+  border: none;
+  color: rgb(245, 90, 79);
+}
+
+.banner {
+  padding: 14px 45px;
+  color: white;
+}
+.banner .banner-title {
+  font-size: 46px;
+}
+.banner .banner-subtitle {
+  font-size: 28px;
+  font-weight: 300;
+}
+.banner .banner-btn {
+  width: 160px;
+  padding: 6px 0;
+  margin-top: 20px;
+  border-radius: 25px;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.banner .banner-btn:hover {
+  background-color: white;
+  color: rgb(42, 42, 42);
+}
+
+.best {
+  margin: 50px 0;
+  padding: 14px 45px;
+}
+.best .best-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.best .best-title {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  margin: 15x 0;
+}
+.best .best-card {
+  text-align: center;
+  flex: 1;
+  padding: 30px;
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.best .best-card:hover {
+  background-color: white;
+  color: rgb(33, 33, 33);
+  transform: translateY(-20px);
+}
+.best .best-card:hover > img {
+  border-color: rgb(33, 33, 33);
+  transition: 0.5s;
+}
+.best .best-card > img {
+  width: 100%;
+  border-radius: 50%;
+  padding: 15px;
+  border: 2px solid white;
+}
+.best .best-card .card-desc {
+  margin: 0 auto;
+  font-weight: 300;
+  opacity: 0.6;
+}
+.best .best-card .card-btn {
+  padding: 6px 10px;
+  margin: 15px 0px;
+  color: white;
+  background-color: rgb(245, 90, 79);
+}
+
+.pricing {
+  margin: 50px 0;
+  padding: 14px 45px;
+}
+
+.pricing-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pricing-card {
+  text-align: betwenn;
+  flex: 1;
+  padding: 30px;
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.pricing-card:hover {
+  background-color: white;
+  color: rgb(33, 33, 33);
+  transform: translateY(-20px);
+}
+.pricing-card:hover > img {
+  border-color: rgb(33, 33, 33);
+  transition: 0.5s;
+}
+
+button {
+  text-align: center;
+  width: 100%;
+  padding: 12px 0px;
+  margin: 70px 0px;
+  color: white;
+  border: none;
+  background-color: green;
+  border-radius: 5px;
+}
+
+span {
+  color: black;
+  font-size: 40px;
+}
+
+.best-wrapper {
+  margin: 50px;
+}
+
+.bi-currency-dollar {
+  position: relative;
+  top: -1px;
+}
+
+.text-top {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.month {
+  font-size: 16px;
+  position: relative;
+  top: 17px;
+  color: white;
+}
+
+.cena {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
